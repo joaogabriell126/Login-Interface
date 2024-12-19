@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins", serif;
+}
+
+body {
+  height: 100vh;
+  background-image: url(./img/2113259-3840x2160-desktop-4k-minimalist-wallpaper-photo.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 4rem;
+  height: 15vh;
+}
+header h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+}
+header ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header ul li {
+  width: 7rem;
+  font-size: 18px;
+}
+header ul a {
+  color: white;
+}
+header ul button {
+  width: 6rem;
+  height: 3rem;
+  background-color: transparent;
+  box-shadow: none;
+  border: solid 1px white;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 18px;
+  color: white;
+}
+header ul button:hover {
+  background-color: #27203F;
+  border: none;
+}/*# sourceMappingURL=style.css.map */
